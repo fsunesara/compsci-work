@@ -1,0 +1,4 @@
+Faisal Sunesara
+CS1ap P6
+Original List: [4, 43, 5, 1, 4, 4, 5, 983, 69, 18, 1, 86, 14, 4]
+Modified List: [8, 43, 5, 61, 5, 983, 69, 18, 1, 86, 14]
