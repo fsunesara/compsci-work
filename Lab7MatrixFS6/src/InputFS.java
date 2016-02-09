@@ -11,14 +11,14 @@
 import static java.lang.System.out;
 import java.io.FileInputStream;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class InputFS 
 {
 	public ArrayList<ArrayList<int[]>> input()
 	{
-		ArrayList<ArrayList<int[]>> matrices = new ArrayList<ArrayList<int[]>>();
+		ArrayList<ArrayList<int[]>> matrices = new ArrayList
+				<ArrayList<int[]>>();
 		ArrayList<int[]> tempMat = new ArrayList<int[]>();
 		
 		String[] vals;
@@ -30,7 +30,8 @@ public class InputFS
 		
 		try
 		{
-			Scanner firstMat = new Scanner(new FileInputStream("matrices.txt"));
+			Scanner firstMat = new Scanner
+					(new FileInputStream("matrices.txt"));
 			
 			while(firstMat.hasNextLine())
 			{

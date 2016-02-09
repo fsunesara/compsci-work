@@ -18,7 +18,7 @@
  * 
  * Formulas: 	None
  * 
- * Algorithim:
+ * Algorithm:
  *		1. Obtains matrices from an input file and places them into arrays
  *		2. Multiplies two sets of matrices
  *		3. Writes the new matrix or failure message to an output file
