@@ -18,8 +18,6 @@ public class AllBooks
 	
 	public void addBook(Book book)
 	{
-		;
-		
 		books.add(book);
 		opinions += book.getTitle() + " -- " + book.opinion() + "\n";
 		out.println(book.getTitle() + " -- " + book.opinion());
